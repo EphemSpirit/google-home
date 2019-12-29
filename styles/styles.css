@@ -1,9 +1,15 @@
-.header {
-    text-decoration: none;
-    display: inline-block;
+* {
+    font-size: 14px;
 }
 
-.header ul a {
+#header {
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+}
+
+#header ul a {
     text-decoration: none;
     color: black;
 }
@@ -35,22 +41,95 @@
     padding: 10px 25px;
     margin-right: 10px;
     background-color: blue;
+    border-radius: 5px;
 }
 
 /*IMAGE*/
 
-.search-box {
+#search-box {
     text-align: center;
 }
 
 img {
-    padding-top: 109px;
+    padding-top: 135px;
 }
 
 /* SEARCH BOX */
+
 .form input {
     padding-top: 6px;
     border-radius: 50px;
-    line-height: .5em;
+    line-height:2em;
     text-align: left;
+    display: inline;
 }
+
+.form .glass img {
+    
+}
+
+#buttons {
+    text-align: center;
+    padding: 20px;
+}
+
+.search-btn {
+    width: 125px;
+    height: 40px;
+}
+
+.luck-btn {
+    width: 150px;
+    height: 40px;
+}
+/*FOOTER*/
+
+#footer {
+    border-top: 1px solid;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+#footer ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.ft-left ul {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.ft-right ul {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.ft-left ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.ft-right ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+/*
+.form input {
+    padding-top: 6px;
+    border-radius: 50px;
+    line-height: 2em;
+    text-align: left;
+    background-image: url("/images/magnify.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 5%;
+}
+*/
